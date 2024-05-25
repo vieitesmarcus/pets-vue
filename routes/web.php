@@ -17,7 +17,7 @@ Route::middleware('guest')->group(function () {
     Route::get('/cadastrar', [UserController::class, 'create'])->name('register.create');
     Route::post('/cadastrar', [UserController::class, 'store'])->name('register.store');
 
-    Route::get('/login', [LoginController::class, 'create'])->name('login.create');
+    Route::get('/login', [LoginController::class, 'create'])->name('login');
     Route::post('/login', [LoginController::class, 'store'])->name('login.store');
     
 });
