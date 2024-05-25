@@ -20,7 +20,7 @@ export default {
           Vem com a gente!
         </p>
 
-        <LinkCustom href="/login" class="mb-3 bg-red-400 hover:bg-red-500">Já tenho conta</LinkCustom>
+        <LinkCustom href="/login" class="mb-3 bg-red-400 hover:bg-red-500">Já tenho contaPi</LinkCustom>
         <LinkCustom href="/cadastrar" class="bg-red-400 hover:bg-red-500">Quero me cadastrar</LinkCustom>
       </main>
     </GuestLayout>
